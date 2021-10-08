@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <locale.h>
 
 char cMacaneta = 'n', cChavePorta = 'n', cChaveCadeado = 'n', cLinha = 'n', cClipe = 'n', cEscada = 'n', cRevistarQuarto = 'n'; 
 
@@ -19,6 +20,8 @@ void exibirInventario(int iConhece)
 }
 
 int main(int argc, char *argv[]) {
+	
+	setlocale(LC_ALL, "Portuguese_Brazil");
 	
 	
 	int iDirecao;
