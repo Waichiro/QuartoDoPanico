@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 	do{
 		exibirInventario(iSabe);
 	
-		printf("Voce em uma sala preso. Na sala possui quatro lugares distintos:\n");
+		printf("Você em uma sala preso. Na sala possui quatro lugares distintos:\n");
 		printf("1 - Analisar quarto\n");
 		printf("2 - Uma mesa\n");
 		printf("3 - Uma lixeira\n");
